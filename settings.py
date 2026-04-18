@@ -21,8 +21,8 @@ class Settings:
         self.bullet_amount = 5
 
         self.alien_file = Path.cwd() / 'Assets' / 'images' / 'enemy_4.png'
-        self.alien_w = 40
-        self.alien_h = 40
+        self.alien_w = 30
+        self.alien_h = 30
         self.fleet_speed = 2
         self.fleet_direction = 1
         self.fleet_drop_speed = 40
