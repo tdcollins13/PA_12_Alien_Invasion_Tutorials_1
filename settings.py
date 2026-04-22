@@ -34,6 +34,7 @@ class Settings:
         self.font_file = Path.cwd() / 'Assets' / 'Fonts' / 'Silkscreen' / 'Silkscreen-Bold.ttf'
 
         self.difficulty_scale = 1.1
+        self.scores_file = Path.cwd() / 'Assets' / 'file' / 'scores.json'
 
     def initialize_dynamic_settings(self):
         self.ship_speed = 5
